@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>hit and blow</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <p>
+      A~Zの任意の文字を入力してください。
+      入力した文字が答えの順番も文字も同じであればhitがカウントされ、
+      順番は違うが答えの中に入力した文字が含まれていればblowがカウントされます。
+    </p>
+
+    <div class="c-inputBlock">
+      <input class="u-mR6 js-input" type="text">
+      <button class="u-mR6 js-submit">判定</button>
+      <button class="js-submit-clear">クリア</button>
+    </div>
+    
+    <p><span class="js-result">入力した文字: </span></p>
+    <p><span class="js-result-hit">HIT: </span></p>
+    <p><span class="js-result-blow">BLOW: </span></p>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
